@@ -1,1 +1,1 @@
-# Product-demand-prediction
+# carbon-aware-model-optimizer
