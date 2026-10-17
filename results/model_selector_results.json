@@ -1,0 +1,46 @@
+{
+    "constraints": {
+        "minimum_accuracy_percent": 70.0,
+        "maximum_energy_Wh": 1.0,
+        "maximum_CO2_g": 1.0
+    },
+    "recommended_model": {
+        "name": "Baseline",
+        "accuracy_percent": 75.61,
+        "model_size_MB": 2.371,
+        "inference_seconds": 1.6995,
+        "estimated_energy_Wh": 0.014162,
+        "estimated_CO2_g": 0.009914,
+        "assumed_power_W": 30
+    },
+    "all_candidates": [
+        {
+            "name": "Baseline",
+            "accuracy_percent": 75.61,
+            "model_size_MB": 2.371,
+            "inference_seconds": 1.6995,
+            "estimated_energy_Wh": 0.014162,
+            "estimated_CO2_g": 0.009914,
+            "assumed_power_W": 30
+        },
+        {
+            "name": "Pruned",
+            "accuracy_percent": 74.93,
+            "model_size_MB": 2.371,
+            "inference_seconds": 2.1913,
+            "estimated_energy_Wh": 0.018261,
+            "estimated_CO2_g": 0.012783,
+            "assumed_power_W": 30
+        },
+        {
+            "name": "Quantized INT8",
+            "accuracy_percent": 75.62,
+            "model_size_MB": 0.865,
+            "inference_seconds": 4.2998,
+            "estimated_energy_Wh": 0.017916,
+            "estimated_CO2_g": 0.012541,
+            "assumed_power_W": 15
+        }
+    ],
+    "environmental_measurements": "Estimated using assumed power"
+}

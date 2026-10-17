@@ -1,0 +1,15 @@
+
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+
+# Dataset files
+data/*
+!data/.gitkeep
+notebooks/data/
+
+# Temporary files
+.DS_Store

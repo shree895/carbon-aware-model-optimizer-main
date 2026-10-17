@@ -1,0 +1,15 @@
+{
+    "baseline": {
+        "accuracy_percent": 75.61,
+        "size_MB": 2.371
+    },
+    "pruned": {
+        "accuracy_percent": 74.93,
+        "size_MB": 2.371,
+        "sparsity_percent": 30.0
+    },
+    "quantized": {
+        "accuracy_percent": 75.62,
+        "size_MB": 0.865
+    }
+}

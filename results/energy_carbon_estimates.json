@@ -1,0 +1,22 @@
+{
+    "baseline": {
+        "inference_seconds": 1.6995,
+        "estimated_energy_Wh": 0.014162,
+        "estimated_CO2_g": 0.009914,
+        "assumed_power_W": 30
+    },
+    "pruned": {
+        "inference_seconds": 2.1913,
+        "estimated_energy_Wh": 0.018261,
+        "estimated_CO2_g": 0.012783,
+        "assumed_power_W": 30
+    },
+    "dynamic_int8_quantized_cpu": {
+        "inference_seconds": 4.2998,
+        "estimated_energy_Wh": 0.017916,
+        "estimated_CO2_g": 0.012541,
+        "assumed_power_W": 15
+    },
+    "grid_carbon_intensity_kg_per_kWh": 0.7,
+    "method": "Illustrative fixed-power estimate; power was assumed, not measured."
+}
